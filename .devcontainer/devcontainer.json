@@ -16,7 +16,8 @@
 		"vscode": {
 			"extensions": [
 				"ritwickdey.LiveServer",
-				"dracula-theme.theme-dracula"
+				"dracula-theme.theme-dracula",
+				"vscjava.vscode-java-pack"
 			]
 		}
 	}
