@@ -1,0 +1,51 @@
+/* uso combinacion de selectores */
+/* combinacion jerarquica de selectores: li hijo de menu*/
+.menu li {
+    list-style: none;
+    /* quita lista */
+    display: inline-block;
+    /* pone en linea */
+    /* margin: 10px; /* margen */
+    margin: 5px 10px;
+    /* margenes se aplican en sentido horario */
+    /* Otras formas
+    margin: 10px 20px 30px 40px; 
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    */
+    border: 1px dotted black;
+    /* borde */
+    padding: 10px;
+    /* relleno */
+    font-family: Victor Mono;
+    font-size: 20px;
+}
+
+.menu {
+    background: #6bff7e;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+/* selector combinado */
+/*
+.menu, li{
+    color: red;
+}
+
+li{
+    background-color: yellow;
+}
+*/
