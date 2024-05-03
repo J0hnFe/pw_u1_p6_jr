@@ -39,6 +39,67 @@ h2 {
     font-size: 14px;
 }
 
+body {
+    text-align: center;
+    background: gray;
+}
+
+.agrupar {
+    border: 1px solid black;
+    background: #819a85;
+    width: 900px;
+    margin: 20px auto;
+}
+
+.cabecera {
+    background: #94b098;
+    border: 1px solid #999999;
+    padding: 20px; /* distancia desde el borde */
+
+}
+
+.seccion {
+    width: 600px;
+    margin: 10px;
+    float: left;
+}
+
+#id_articulo_1, #id_articulo_2 {
+    background: #b4f7b2;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin: 10px;
+}
+
+article footer {
+    text-align: right;
+}
+
+.referencias {
+    width: 200px;
+    float: right;
+    margin: 30px 35px;
+    padding-left: 2px;
+}
+
+/* siempre el pie de la pg (no el de cualquier elemento) debe tener clear both */
+.pie {
+    clear: both;
+}
+
+blockquote {
+    border: 1px solid black;
+    padding: 10px;
+    background: #5c6e5f;
+    width: 150px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: auto auto;
+}
+
 /* selector combinado */
 /*
 .menu, li{
