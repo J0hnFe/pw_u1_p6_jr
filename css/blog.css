@@ -15,7 +15,7 @@
     margin-bottom: 30px;
     margin-left: 40px;
     */
-    border: 1px dotted black;
+    border: 1px solid black;
     /* borde */
     padding: 10px;
     /* relleno */
@@ -24,7 +24,7 @@
 }
 
 .menu {
-    background: #6bff7e;
+    background: #EFF396;
     padding: 5px 10px;
     text-align: left;
 }
@@ -41,18 +41,18 @@ h2 {
 
 body {
     text-align: center;
-    background: gray;
+    background: #211C6A;
 }
 
 .agrupar {
     border: 1px solid black;
-    background: #819a85;
+    background: #59B4C3;
     width: 900px;
     margin: 20px auto;
 }
 
 .cabecera {
-    background: #94b098;
+    background: #59B4C3;
     border: 1px solid #999999;
     padding: 20px; /* distancia desde el borde */
 
@@ -65,8 +65,8 @@ body {
 }
 
 #id_articulo_1, #id_articulo_2 {
-    background: #b4f7b2;
-    border: 1px solid #999999;
+    background: #EFF396;
+    border: 7px solid #211C6A;
     padding: 20px;
     margin: 10px;
 }
@@ -88,9 +88,9 @@ article footer {
 }
 
 blockquote {
-    border: 1px solid black;
+    border: 5px solid #211C6A;
     padding: 10px;
-    background: #5c6e5f;
+    background: #74E291;
     width: 150px;
 }
 
