@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadoraCompleta.js"></script>
 </head>
 
 <body>
@@ -14,25 +15,27 @@
     <section>
         <div class="container">
             <div class="calculadora">
-                <div class="display">0.000000</div>
-                <button class="col-2">C</button>
-                <button>&larr;</button>
-                <button>&#10135;</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>&#10006;</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>&#10134;</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>&#10133;</button>
-                <button class="col-2">0</button>
-                <button>.</button>
-                <button>&#x003D;</button>
+                <div class="display">
+                    <label id="idResultado" for=""></label>
+                </div>
+                <button id="clear" class="col-2" onclick="resetear()">C</button>
+                <button id="borrar" onclick="borrar()">&larr;</button> <!-- Borrar -->
+                <button id="btnDividir" onclick="dividir()">&#10135;</button> <!-- Division -->
+                <button id="btn7" onclick="numero(7)">7</button>
+                <button id="btn8" onclick="numero(8)">8</button>
+                <button id="btn9" onclick="numero(9)">9</button>
+                <button id="btnMultiplicar" onclick="multiplicar()">&#10006;</button> <!-- x -->
+                <button id="btn4" onclick="numero(4)">4</button>
+                <button id="btn5" onclick="numero(5)">5</button>
+                <button id="btn6" onclick="numero(6)">6</button>
+                <button id="btnRestar" onclick="restar()">&#10134;</button> <!-- - -->
+                <button id="btn1" onclick="numero(1)">1</button>
+                <button id="btn2" onclick="numero(2)">2</button>
+                <button id="btn3" onclick="numero(3)">3</button>
+                <button id="btnSumar" onclick="sumar()">&#10133;</button> <!-- + -->
+                <button id="btn0" class="col-2" onclick="numero(0)">0</button>
+                <button id="btnPunto" onclick="punto()">.</button>
+                <button id="btnIgual" onclick="igual()">&#x003D;</button> <!-- igual -->
             </div>
         </div>
     </section>
