@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: baseline;
+    
+}
+
+.formulario {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.form {
+    width: 700px;
+}
+
+/* Atributo de tipo pseudoclase */
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 3px 2px;
+    font-size: 15px;
+}
+
+.form_cuadricula {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 200px); */
+}
+
+.nombre {
+    grid-column: span 2;
+}
