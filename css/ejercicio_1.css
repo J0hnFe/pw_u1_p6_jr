@@ -1,16 +1,23 @@
 .container {
     display: flex;
-    justify-content: baseline;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.formulario {
+.formulario .form {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 85px);
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid black;
 }
 
-.form {
-    width: 700px;
+.titulo {
+    grid-column: span 3;
+}
+
+.nombre {
+    grid-column: span 2;
 }
 
 /* Atributo de tipo pseudoclase */
@@ -21,12 +28,3 @@ p:before {
     font-size: 15px;
 }
 
-.form_cuadricula {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 200px); */
-}
-
-.nombre {
-    grid-column: span 2;
-}
